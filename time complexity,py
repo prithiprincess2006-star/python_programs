@@ -1,0 +1,34 @@
+#time complexity describes how the number of operations an algorithm perfoms grows as its input size increses
+# it measures growth rather than the exact running time in second
+
+# o(1)=constant time 
+
+names=["namjoon","jin","yoongi","jhope","jimin","taehyung","jungkook"]
+print(names[0])
+print(names[1])
+print(names[2])
+print(names[3])
+print(names[4])
+print(names[5])
+print(names[6])
+
+# #linear time=o(n)
+
+n=100
+for i in range(n):
+    print(i,end=" ")
+
+# #quadratic=o(n^2)
+
+num=5
+for i in range(1,num+1):
+    for j in range(1,num+1):
+        print(j,end=" ")
+    print() 
+
+# #logarithmic o(log n)
+
+nums=16
+while nums>1:
+    print(nums)
+    nums//=2
